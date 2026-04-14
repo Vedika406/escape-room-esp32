@@ -32,7 +32,10 @@ Escape-Room-ESP32/
 1. Connect all components as per circuit design  
 2. Upload the code using Arduino IDE  
 3. Power the ESP32  
-4. Follow on-screen instructions on LCD  
+4. Follow on-screen instructions on LCD
+
+## Hardware Design Note
+An external Arduino board was used to provide stable power to the servo motors. This prevents overloading of the ESP32 and ensures reliable operation of actuators during gameplay.
 
 ## Author
 Vedika Thorat
